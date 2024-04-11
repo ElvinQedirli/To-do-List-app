@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             listItem.classList.add('task_element');
             listItem.innerHTML = `<input type="checkbox">${taskText} <button>✏</button>`;
             taskList.appendChild(listItem);
-            newTaskInput.value = ''; // input alanını temizle
+            newTaskInput.value = ''; // input temizle
         }
     });
 
